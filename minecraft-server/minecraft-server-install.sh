@@ -57,7 +57,7 @@ post_install() {
         echo "The EULA file is generated after the first server start."
 }
 
-yum install nmap-ncat
+yum install -y nmap-ncat
 
 package
 post_install
