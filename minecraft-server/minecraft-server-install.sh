@@ -9,6 +9,7 @@ _nonce=3dc3d84a581f14691199cf6831b71ed1296a9fdf
 # See https://launchermeta.mojang.com/mc/game/version_manifest.json for a list of all releases
 _game="minecraft"
 _server_root="/srv/minecraft"
+_user="${_game}"
 
 package() {
 	wget https://launcher.mojang.com/v1/objects/${_nonce}/server.jar
